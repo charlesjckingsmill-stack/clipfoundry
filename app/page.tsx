@@ -47,7 +47,7 @@ export default function Home() {
               <span className="text-xl font-semibold">ClipFoundry</span>
             </div>
             <a
-              href="mailto:charlesjckingsmill@gmail.com"
+              href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips."
               className="hidden text-sm text-slate-300 hover:text-white sm:block"
             >
               charlesjckingsmill@gmail.com
@@ -74,7 +74,7 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack">
+                <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
                   <Button className="rounded-2xl bg-cyan-400 px-6 py-6 text-base font-semibold text-slate-950 hover:bg-cyan-300">
                     Get 5 clips for £99 <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
@@ -242,7 +242,7 @@ export default function Home() {
                     ))}
                   </div>
 
-                  <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Package%20Enquiry">
+                  <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
                     <Button className="mt-8 w-full rounded-2xl bg-white px-6 py-6 text-base font-semibold text-slate-950 hover:bg-neutral-200">
                       Start with this
                     </Button>
@@ -292,6 +292,77 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-7xl rounded-[2rem] border border-white/10 bg-white/5 p-8 sm:p-10">
+          <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+            <div>
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+                Built for people who need more content, not more editing.
+              </h2>
+              <p className="mt-4 text-lg leading-8 text-slate-300">
+                ClipFoundry is for businesses and creators who already have useful video but struggle to turn it into consistent short-form posts.
+              </p>
+            </div>
+
+            <div className="grid gap-3 sm:grid-cols-2">
+              {[
+                "Gyms & personal trainers",
+                "Estate agents",
+                "Podcasts & interview shows",
+                "Coaches & consultants",
+                "Restaurants & bars",
+                "Recruiters",
+                "Sports clubs & coaches",
+                "Creators & founders",
+              ].map((audience) => (
+                <div key={audience} className="rounded-2xl bg-slate-950 px-5 py-4 text-slate-100">
+                  {audience}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="max-w-3xl">
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              Questions people usually ask
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-slate-300">
+              Simple answers before you send over your first video.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-4 lg:grid-cols-2">
+            {[
+              {
+                question: "What type of videos can I send?",
+                answer: "Podcasts, interviews, webinars, talking-head videos, training clips, property tours, Q&As or any longer video with useful moments inside it.",
+              },
+              {
+                question: "How long does delivery take?",
+                answer: "The Trial Pack is normally delivered within 3–5 days after you send the video and any basic brand notes.",
+              },
+              {
+                question: "Do you add captions?",
+                answer: "Yes. Every clip includes captions/subtitles, plus a hook/title and a written post caption.",
+              },
+              {
+                question: "Can I request changes?",
+                answer: "The monthly package includes one revision round per batch. For the trial, small fixes are included so the clips are ready to post.",
+              },
+            ].map((item) => (
+              <div key={item.question} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-lg font-semibold">{item.question}</h3>
+                <p className="mt-3 leading-7 text-slate-300">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="px-6 py-20 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-4xl text-center">
           <Clock className="mx-auto mb-5 h-10 w-10 text-cyan-300" />
@@ -302,7 +373,7 @@ export default function Home() {
             Send one long video and get a ready-to-post batch of short-form clips with captions, hooks and post captions.
           </p>
 
-          <a href="mailto:charlesjckingsmill@gmail.com">
+          <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
             <Button className="mt-8 rounded-2xl bg-cyan-400 px-8 py-6 text-base font-semibold text-slate-950 hover:bg-cyan-300">
               Book the £99 trial <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
