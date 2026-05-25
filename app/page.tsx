@@ -47,10 +47,10 @@ export default function Home() {
               <span className="text-xl font-semibold">ClipFoundry</span>
             </div>
             <a
-              href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips."
+              href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips."
               className="hidden text-sm text-slate-300 hover:text-white sm:block"
             >
-              charlesjckingsmill@gmail.com
+              hello@clipfoundry.co.uk
             </a>
           </nav>
 
@@ -74,7 +74,7 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
+                <a href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
                   <Button className="rounded-2xl bg-cyan-400 px-6 py-6 text-base font-semibold text-slate-950 hover:bg-cyan-300">
                     Get 5 clips for £99 <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
@@ -242,7 +242,7 @@ export default function Home() {
                     ))}
                   </div>
 
-                  <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
+                  <a href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
                     <Button className="mt-8 w-full rounded-2xl bg-white px-6 py-6 text-base font-semibold text-slate-950 hover:bg-neutral-200">
                       Start with this
                     </Button>
@@ -373,7 +373,7 @@ export default function Home() {
             Send one long video and get a ready-to-post batch of short-form clips with captions, hooks and post captions.
           </p>
 
-          <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
+          <a href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
             <Button className="mt-8 rounded-2xl bg-cyan-400 px-8 py-6 text-base font-semibold text-slate-950 hover:bg-cyan-300">
               Book the £99 trial <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
@@ -384,7 +384,7 @@ export default function Home() {
       <footer className="border-t border-white/10 px-6 py-8 sm:px-10 lg:px-16">
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-4 text-sm text-slate-400 sm:flex-row">
           <div>© 2026 ClipFoundry. Short-form content from long-form video.</div>
-          <div>charlesjckingsmill@gmail.com</div>
+          <div>hello@clipfoundry.co.uk</div>
         </div>
       </footer>
     </main>
