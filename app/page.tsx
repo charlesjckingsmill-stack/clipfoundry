@@ -100,25 +100,95 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <Card className="overflow-hidden rounded-[2rem] border-white/10 bg-white/10 text-white shadow-2xl">
-                <CardContent className="p-6">
-                  <div className="rounded-[1.5rem] bg-neutral-950 p-4">
-                    <div className="aspect-[9/16] rounded-[1.25rem] border border-white/10 bg-gradient-to-b from-neutral-800 to-neutral-950 p-5">
-                      <div className="mb-4 flex items-center justify-between">
-                        <div className="h-3 w-20 rounded-full bg-white/20" />
-                        <div className="h-3 w-8 rounded-full bg-orange-500" />
+                <CardContent className="p-6 sm:p-8">
+                  <div className="rounded-[1.5rem] border border-white/10 bg-neutral-950 p-5 sm:p-6">
+                    <div className="mb-6 flex items-center justify-between gap-4">
+                      <div>
+                        <p className="text-sm text-neutral-400">ClipFoundry workflow</p>
+                        <h3 className="mt-1 text-2xl font-semibold">One video becomes a week of content</h3>
+                      </div>
+                      <div className="shrink-0 rounded-full bg-orange-500 px-3 py-1 text-sm font-bold text-neutral-950">
+                        3–5 days
+                      </div>
+                    </div>
+
+                    <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                      <div className="mb-3 flex items-center justify-between">
+                        <span className="text-xs font-bold tracking-widest text-neutral-400">SOURCE VIDEO</span>
+                        <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-neutral-300">42:18 podcast</span>
                       </div>
 
-                      <div className="mt-24 space-y-4">
-                        <div className="inline-block rounded-xl bg-orange-500 px-3 py-2 text-sm font-bold text-neutral-950">
-                          “This one mistake kills your content...”
+                      <div className="relative overflow-hidden rounded-xl border border-white/10 bg-gradient-to-br from-neutral-700 via-neutral-900 to-black">
+                        <div className="aspect-video p-4">
+                          <div className="absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs text-white">
+                            Interview recording
+                          </div>
+
+                          <div className="absolute inset-x-5 bottom-5">
+                            <div className="mb-3 rounded-lg bg-black/70 px-3 py-2 text-sm font-semibold">
+                              “The biggest mistake most businesses make with content...”
+                            </div>
+                            <div className="h-2 overflow-hidden rounded-full bg-white/20">
+                              <div className="h-full w-2/3 rounded-full bg-orange-500" />
+                            </div>
+                            <div className="mt-2 flex justify-between text-xs text-neutral-300">
+                              <span>00:00</span>
+                              <span>42:18</span>
+                            </div>
+                          </div>
+
+                          <div className="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-orange-500 text-xl font-bold text-neutral-950 shadow-xl">
+                            ▶
+                          </div>
                         </div>
-                        <div className="h-3 w-4/5 rounded-full bg-white/25" />
-                        <div className="h-3 w-3/5 rounded-full bg-white/20" />
                       </div>
+                    </div>
 
-                      <div className="mt-32 rounded-2xl bg-white/10 p-4 text-sm text-neutral-200">
-                        Captions, hook, title and post caption included.
+                    <div className="my-5 flex justify-center">
+                      <div className="rounded-full border border-orange-500/30 bg-orange-500/10 px-4 py-2 text-sm font-bold text-orange-300">
+                        ↓ Turned into short-form clips
                       </div>
+                    </div>
+
+                    <div className="grid grid-cols-3 gap-3">
+                      {[
+                        { platform: "Reel", hook: "Stop posting like this", time: "0:31" },
+                        { platform: "TikTok", hook: "This is why clips fail", time: "0:24" },
+                        { platform: "Short", hook: "One simple content fix", time: "0:28" },
+                      ].map((clip) => (
+                        <div key={clip.hook} className="overflow-hidden rounded-2xl border border-white/10 bg-neutral-900">
+                          <div className="relative aspect-[9/16] bg-gradient-to-b from-neutral-700 via-neutral-900 to-black p-3">
+                            <div className="absolute right-2 top-2 rounded-full bg-black/60 px-2 py-1 text-[10px] text-white">
+                              {clip.time}
+                            </div>
+
+                            <div className="absolute left-2 top-2 rounded-full bg-orange-500 px-2 py-1 text-[10px] font-bold text-neutral-950">
+                              {clip.platform}
+                            </div>
+
+                            <div className="absolute left-2 right-2 top-16 rounded-lg bg-black/65 px-2 py-2 text-center text-[11px] font-bold leading-tight text-white">
+                              {clip.hook}
+                            </div>
+
+                            <div className="absolute bottom-12 left-2 right-2 rounded-lg bg-white px-2 py-1 text-center text-[10px] font-bold leading-tight text-neutral-950">
+                              Captions added here
+                            </div>
+
+                            <div className="absolute bottom-3 left-2 right-2">
+                              <div className="h-1.5 overflow-hidden rounded-full bg-white/20">
+                                <div className="h-full w-1/2 rounded-full bg-orange-500" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+
+                    <div className="mt-5 grid gap-2 text-sm text-neutral-200 sm:grid-cols-2">
+                      <div className="rounded-xl bg-white/5 px-3 py-2">✓ Edited clips</div>
+                      <div className="rounded-xl bg-white/5 px-3 py-2">✓ Captions/subtitles</div>
+                      <div className="rounded-xl bg-white/5 px-3 py-2">✓ Hooks & titles</div>
+                      <div className="rounded-xl bg-white/5 px-3 py-2">✓ Post captions</div>
                     </div>
                   </div>
                 </CardContent>
