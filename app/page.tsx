@@ -172,9 +172,11 @@ export default function Home() {
                     ))}
                   </div>
 
-                  <Button className="mt-8 w-full rounded-2xl bg-white px-6 py-6 text-base font-semibold text-neutral-950 hover:bg-neutral-200">
-                    Start with this
-                  </Button>
+                  <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Package%20Enquiry">
+                    <Button className="mt-8 w-full rounded-2xl bg-white px-6 py-6 text-base font-semibold text-neutral-950 hover:bg-neutral-200">
+                      Start with this
+                    </Button>
+                  </a>
                 </CardContent>
               </Card>
             ))}
