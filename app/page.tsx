@@ -10,7 +10,7 @@ export default function Home() {
     {
       name: "Trial Pack",
       price: "£99",
-      description: "A low-risk first batch so you can see what your content could become.",
+      description: "Turn one long video into a ready-to-post batch of short-form clips.",
       features: [
         "5 edited short-form clips",
         "Captions/subtitles included",
@@ -23,7 +23,7 @@ export default function Home() {
     {
       name: "Monthly Pack",
       price: "£399/month",
-      description: "For businesses and creators who want consistent content every month.",
+      description: "Stay visible every week without editing everything yourself.",
       features: [
         "20 short-form clips per month",
         "Captions/subtitles included",
@@ -65,18 +65,17 @@ export default function Home() {
               </div>
 
               <h1 className="max-w-4xl text-5xl font-semibold tracking-tight sm:text-6xl lg:text-7xl">
-                Turn long videos into clips people actually watch.
+                Turn one long video into a week of short-form content.
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300 sm:text-xl">
-                ClipFoundry turns podcasts, interviews, webinars and talking-head videos into TikToks,
-                Reels, Shorts and LinkedIn clips — complete with captions, hooks, titles and post captions.
+                ClipFoundry helps businesses, creators and coaches repurpose podcasts, interviews, webinars and talking-head videos into ready-to-post TikToks, Reels, Shorts and LinkedIn clips — complete with captions, hooks, titles and post captions.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
                   <Button className="rounded-2xl bg-cyan-400 px-6 py-6 text-base font-semibold text-slate-950 hover:bg-cyan-300">
-                    Get 5 clips for £99 <ArrowRight className="ml-2 h-5 w-5" />
+                    Book the £99 Trial <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </a>
                 <a href="#how-it-works">
@@ -84,13 +83,13 @@ export default function Home() {
                     variant="outline"
                     className="rounded-2xl border-white/15 bg-white/5 px-6 py-6 text-base text-white hover:bg-white/10"
                   >
-                    See how it works
+                    How it works
                   </Button>
                 </a>
               </div>
 
               <p className="mt-4 text-sm text-slate-400">
-                Trial Pack: 5 edited clips delivered in 3–5 days. No long-term commitment.
+                Send one video. Get 5 edited clips back in 3–5 days. No long-term commitment.
               </p>
             </motion.div>
 
@@ -105,7 +104,7 @@ export default function Home() {
                     <div className="mb-6 flex items-center justify-between gap-4">
                       <div>
                         <p className="text-sm text-slate-400">ClipFoundry workflow</p>
-                        <h3 className="mt-1 text-2xl font-semibold">One video becomes a week of content</h3>
+                        <h3 className="mt-1 text-2xl font-semibold">One recording becomes multiple posts</h3>
                       </div>
                       <div className="shrink-0 rounded-full bg-cyan-400 px-3 py-1 text-sm font-bold text-slate-950">
                         3–5 days
@@ -114,8 +113,8 @@ export default function Home() {
 
                     <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
                       <div className="mb-3 flex items-center justify-between">
-                        <span className="text-xs font-bold tracking-widest text-slate-400">SOURCE VIDEO</span>
-                        <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-slate-300">42:18 podcast</span>
+                        <span className="text-xs font-bold tracking-widest text-slate-400">LONG-FORM VIDEO</span>
+                        <span className="rounded-full bg-white/10 px-3 py-1 text-xs text-slate-300">Podcast / interview / webinar</span>
                       </div>
 
                       <div className="relative overflow-hidden rounded-xl border border-white/10 bg-gradient-to-br from-slate-700 via-slate-900 to-black">
@@ -146,7 +145,7 @@ export default function Home() {
 
                     <div className="my-5 flex justify-center">
                       <div className="rounded-full border border-cyan-400/30 bg-cyan-400/10 px-4 py-2 text-sm font-bold text-cyan-200">
-                        ↓ Turned into short-form clips
+                        ↓ Repurposed into platform-ready clips
                       </div>
                     </div>
 
@@ -201,11 +200,10 @@ export default function Home() {
       <section className="px-6 py-16 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-7xl">
           <h2 className="max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
-            Most businesses already have the content. They just don’t have the clips.
+            You already have the content. ClipFoundry turns it into posts.
           </h2>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-            Long videos are hard to repurpose consistently. ClipFoundry turns them into short-form content
-            that is easier to post, easier to watch and easier to share.
+            Most businesses and creators have useful long-form video sitting unused. ClipFoundry turns that footage into short-form clips designed for TikTok, Instagram Reels, YouTube Shorts and LinkedIn.
           </p>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -222,7 +220,7 @@ export default function Home() {
       <section className="px-6 py-16 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-7xl">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Simple packages. Clear output.
+            Simple packages built around output.
           </h2>
 
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
@@ -244,7 +242,7 @@ export default function Home() {
 
                   <a href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
                     <Button className="mt-8 w-full rounded-2xl bg-white px-6 py-6 text-base font-semibold text-slate-950 hover:bg-neutral-200">
-                      Start with this
+                      Enquire about this package
                     </Button>
                   </a>
                 </CardContent>
@@ -262,7 +260,7 @@ export default function Home() {
             <Card className="rounded-[2rem] border-white/10 bg-white/5 text-white">
               <CardContent className="p-7">
                 <Video className="mb-5 h-8 w-8 text-cyan-300" />
-                <h3 className="text-xl font-semibold">Send one long video</h3>
+                <h3 className="text-xl font-semibold">Send your long video</h3>
                 <p className="mt-3 leading-7 text-slate-300">
                   Send a podcast, interview, webinar, talking-head clip or any long-form video you already have.
                 </p>
@@ -272,9 +270,9 @@ export default function Home() {
             <Card className="rounded-[2rem] border-white/10 bg-white/5 text-white">
               <CardContent className="p-7">
                 <Clapperboard className="mb-5 h-8 w-8 text-cyan-300" />
-                <h3 className="text-xl font-semibold">We find the best moments</h3>
+                <h3 className="text-xl font-semibold">We pull out the strongest moments</h3>
                 <p className="mt-3 leading-7 text-slate-300">
-                  We pull out the strongest clips, shape them for short-form platforms and add captions and hooks.
+                  We identify the best moments, cut them down for short-form platforms and add captions, hooks and titles.
                 </p>
               </CardContent>
             </Card>
@@ -282,12 +280,79 @@ export default function Home() {
             <Card className="rounded-[2rem] border-white/10 bg-white/5 text-white">
               <CardContent className="p-7">
                 <Repeat className="mb-5 h-8 w-8 text-cyan-300" />
-                <h3 className="text-xl font-semibold">You get ready-to-post clips</h3>
+                <h3 className="text-xl font-semibold">You get clips ready to post</h3>
                 <p className="mt-3 leading-7 text-slate-300">
                   You receive a batch of clips with post captions ready for TikTok, Reels, Shorts and LinkedIn.
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="max-w-3xl">
+            <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              What you get with every batch
+            </h2>
+            <p className="mt-4 text-lg leading-8 text-slate-300">
+              Each clip is edited to be easy to watch, easy to post and useful across multiple platforms.
+            </p>
+          </div>
+
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              {
+                title: "Edited short clips",
+                text: "Strong moments cut into vertical videos for TikTok, Reels, Shorts and LinkedIn.",
+              },
+              {
+                title: "Captions/subtitles",
+                text: "Readable on-screen captions so the clips still work without sound.",
+              },
+              {
+                title: "Hooks & titles",
+                text: "Each clip gets a clear opening angle designed to make people stop scrolling.",
+              },
+              {
+                title: "Post captions",
+                text: "Simple written captions so you know what to post with each clip.",
+              },
+            ].map((item) => (
+              <div key={item.title} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <h3 className="text-lg font-semibold">{item.title}</h3>
+                <p className="mt-3 leading-7 text-slate-300">{item.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-7xl rounded-[2rem] border border-white/10 bg-white/5 p-8 sm:p-10">
+          <div className="grid gap-8 lg:grid-cols-3">
+            <div className="lg:col-span-1">
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+                Why ClipFoundry?
+              </h2>
+              <p className="mt-4 text-lg leading-8 text-slate-300">
+                Built for people who know they should be posting more, but don’t have the time to edit every clip themselves.
+              </p>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2">
+              {[
+                "No need to film new content from scratch",
+                "Turn one recording into multiple posts",
+                "Clear deliverables, not vague content advice",
+                "Useful for TikTok, Reels, Shorts and LinkedIn",
+              ].map((reason) => (
+                <div key={reason} className="rounded-2xl bg-slate-950 px-5 py-4 text-slate-100">
+                  ✓ {reason}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -367,15 +432,15 @@ export default function Home() {
         <div className="mx-auto max-w-4xl text-center">
           <Clock className="mx-auto mb-5 h-10 w-10 text-cyan-300" />
           <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-            Get your first 5 clips this week.
+            Ready to turn one video into five clips?
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-slate-300">
-            Send one long video and get a ready-to-post batch of short-form clips with captions, hooks and post captions.
+            Send your long video and get a ready-to-post batch of short-form clips with captions, hooks and post captions.
           </p>
 
           <a href="mailto:hello@clipfoundry.co.uk?subject=ClipFoundry%20Trial%20Pack&body=Hi%2C%20I%27m%20interested%20in%20the%20%C2%A399%20trial%20pack.%20I%20have%20a%20video%20I%27d%20like%20turned%20into%20short-form%20clips.">
             <Button className="mt-8 rounded-2xl bg-cyan-400 px-8 py-6 text-base font-semibold text-slate-950 hover:bg-cyan-300">
-              Book the £99 trial <ArrowRight className="ml-2 h-5 w-5" />
+              Start the £99 Trial <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </a>
         </div>
@@ -383,7 +448,7 @@ export default function Home() {
 
       <footer className="border-t border-white/10 px-6 py-8 sm:px-10 lg:px-16">
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-4 text-sm text-slate-400 sm:flex-row">
-          <div>© 2026 ClipFoundry. Short-form content from long-form video.</div>
+          <div>© 2026 ClipFoundry. AI-assisted short-form content repurposing for businesses and creators.</div>
           <div>hello@clipfoundry.co.uk</div>
         </div>
       </footer>
