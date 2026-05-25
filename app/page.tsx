@@ -219,6 +219,74 @@ export default function Home() {
 
       <section className="px-6 py-16 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-7xl">
+          <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+            <div>
+              <div className="mb-4 inline-flex rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-slate-300">
+                Example batch
+              </div>
+              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+                What one long video could become
+              </h2>
+              <p className="mt-4 text-lg leading-8 text-slate-300">
+                From a single podcast, interview, webinar or talking-head video, ClipFoundry can pull out multiple short-form clips with clear hooks, captions and post-ready angles.
+              </p>
+              <div className="mt-6 rounded-2xl border border-cyan-400/30 bg-cyan-400/10 p-5">
+                <p className="text-sm font-semibold text-cyan-200">Example input</p>
+                <p className="mt-2 text-xl font-semibold">One 40-minute interview</p>
+                <p className="mt-2 text-slate-300">Turned into 5 short clips for TikTok, Reels, Shorts and LinkedIn.</p>
+              </div>
+            </div>
+
+            <div className="grid gap-4">
+              {[
+                {
+                  title: "The biggest content mistake small businesses make",
+                  platform: "Reel / TikTok",
+                  length: "0:31",
+                },
+                {
+                  title: "Why consistency beats going viral",
+                  platform: "Short / LinkedIn",
+                  length: "0:28",
+                },
+                {
+                  title: "How to turn one idea into five posts",
+                  platform: "Reel / Short",
+                  length: "0:35",
+                },
+                {
+                  title: "The easiest way to start posting more",
+                  platform: "TikTok / Reel",
+                  length: "0:24",
+                },
+                {
+                  title: "What most people get wrong about short-form",
+                  platform: "LinkedIn / Short",
+                  length: "0:29",
+                },
+              ].map((clip, index) => (
+                <div key={clip.title} className="rounded-2xl border border-white/10 bg-white/5 p-5">
+                  <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                    <div>
+                      <p className="text-sm font-semibold text-cyan-200">Clip {index + 1}</p>
+                      <h3 className="mt-1 text-lg font-semibold">{clip.title}</h3>
+                      <p className="mt-2 text-sm text-slate-300">{clip.platform} • {clip.length}</p>
+                    </div>
+                    <div className="flex shrink-0 flex-wrap gap-2 text-xs">
+                      <span className="rounded-full bg-slate-950 px-3 py-1 text-slate-200">Captions</span>
+                      <span className="rounded-full bg-slate-950 px-3 py-1 text-slate-200">Hook</span>
+                      <span className="rounded-full bg-slate-950 px-3 py-1 text-slate-200">Post caption</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="px-6 py-16 sm:px-10 lg:px-16">
+        <div className="mx-auto max-w-7xl">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
             Simple packages built around output.
           </h2>
