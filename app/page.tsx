@@ -74,15 +74,19 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                <Button className="rounded-2xl bg-orange-500 px-6 py-6 text-base font-semibold text-neutral-950 hover:bg-orange-400">
-                  Get 5 clips for £99 <ArrowRight className="ml-2 h-5 w-5" />
-                </Button>
-                <Button
-                  variant="outline"
-                  className="rounded-2xl border-white/15 bg-white/5 px-6 py-6 text-base text-white hover:bg-white/10"
-                >
-                  See how it works
-                </Button>
+                <a href="mailto:charlesjckingsmill@gmail.com?subject=ClipFoundry%20Trial%20Pack">
+                  <Button className="rounded-2xl bg-orange-500 px-6 py-6 text-base font-semibold text-neutral-950 hover:bg-orange-400">
+                    Get 5 clips for £99 <ArrowRight className="ml-2 h-5 w-5" />
+                  </Button>
+                </a>
+                <a href="#how-it-works">
+                  <Button
+                    variant="outline"
+                    className="rounded-2xl border-white/15 bg-white/5 px-6 py-6 text-base text-white hover:bg-white/10"
+                  >
+                    See how it works
+                  </Button>
+                </a>
               </div>
 
               <p className="mt-4 text-sm text-neutral-400">
@@ -178,7 +182,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-6 py-16 sm:px-10 lg:px-16">
+      <section id="how-it-works" className="px-6 py-16 sm:px-10 lg:px-16">
         <div className="mx-auto max-w-7xl">
           <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">How it works</h2>
 
